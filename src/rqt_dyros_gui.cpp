@@ -33,7 +33,9 @@ namespace rqt_dyros_gui
 
   void RqtDyrosPlugin::pushbutton()
   {
-    std::cout << "Hello World!" <<std::endl;
+    std::cout<<"Hello World"<<std::endl;
+    
+    ui_.myLabel->setText(QString::fromUtf8("Hello World"));
   }
 
 //   void RqtDyrosPlugin::pushbutton()
