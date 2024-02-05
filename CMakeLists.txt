@@ -17,6 +17,7 @@ find_package(rclcpp REQUIRED)
 find_package(qt_gui_cpp REQUIRED)
 find_package(rqt_gui_cpp REQUIRED)
 find_package(std_msgs REQUIRED)
+find_package(sensor_msgs REQUIRED)
 find_package(Qt5Widgets REQUIRED)
 find_package(ament_cmake_python REQUIRED)
 
@@ -38,6 +39,7 @@ ${rclcpp_INCLUDE_DIRS}
 ${qt_gui_cpp_INCLUDE_DIRS}
 ${rqt_gui_cpp_INCLUDE_DIRS}
 ${std_msgs_INCLUDE_DIRS}
+${sensor_msgs_INCLUDE_DIRS}
 ${Qt5Widgets_INCLUDE_DIRS}
 )
 
@@ -58,7 +60,7 @@ add_library(${PROJECT_NAME} SHARED
   ${rqt_dyros_gui_UIS_H}
 )
 ament_target_dependencies(${PROJECT_NAME}
-  rclcpp std_msgs
+  rclcpp std_msgs sensor_msgs
 )
 
 target_link_libraries(${PROJECT_NAME}
@@ -66,6 +68,7 @@ target_link_libraries(${PROJECT_NAME}
   ${qt_gui_cpp_LIBRARIES}
   ${rqt_gui_cpp_LIBRARIES}
   ${std_msgs_LIBRARIES}
+  ${sensor_msgs_LIBRARIES}
   Qt5::Widgets
 )
 

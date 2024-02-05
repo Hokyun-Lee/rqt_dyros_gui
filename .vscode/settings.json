@@ -1,0 +1,31 @@
+{
+    "files.associations": {
+        "iostream": "cpp",
+        "array": "cpp",
+        "string": "cpp",
+        "string_view": "cpp"
+    },
+    "python.autoComplete.extraPaths": [
+        "/home/dyros/2024W/ros2_ws/install/dyros_tf2/lib/python3.10/site-packages",
+        "/home/dyros/2024W/ros2_ws/install/dyros_python/lib/python3.10/site-packages",
+        "/home/dyros/2024W/ros2_ws/install/dyros_interface/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages",
+        "",
+        "/usr/local/lib",
+        "/usr/local/lib",
+        "/usr/local/lib"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/dyros/2024W/ros2_ws/install/dyros_tf2/lib/python3.10/site-packages",
+        "/home/dyros/2024W/ros2_ws/install/dyros_python/lib/python3.10/site-packages",
+        "/home/dyros/2024W/ros2_ws/install/dyros_interface/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages",
+        "",
+        "/usr/local/lib",
+        "/usr/local/lib",
+        "/usr/local/lib"
+    ],
+    "C_Cpp.errorSquiggles": "enabled"
+}

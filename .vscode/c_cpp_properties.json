@@ -1,0 +1,27 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/dyros/2024W/ros2_ws/install/rqt_dyros_gui/include/**",
+        "/home/dyros/2024W/ros2_ws/install/dyros_interface/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/dyros/2024W/bt2_ws/src/bootcamp2_control/include/**",
+        "/home/dyros/2024W/bt2_ws/src/bootcamp2_gui/include/**",
+        "/home/dyros/2024W/bt2_ws/src/bootcamp_rbdl/include/**",
+        "/home/dyros/2024W/bt2_ws/src/rqt_dyros_gui/include/**",
+        "include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
